@@ -1,0 +1,4 @@
+/* Styles simples pour aligner le panneau */
+.components-panel__body .components-base-control {
+    margin-bottom: 16px;
+}

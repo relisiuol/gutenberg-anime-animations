@@ -1,0 +1,25 @@
+{
+  "name": "gutenberg-anime-animations",
+  "version": "0.0.1",
+  "description": "Add some effects to any Gutenberg block using Anime.js",
+  "license": "MIT",
+  "author": "Relisiuol <contact@relisiuol.fr>",
+  "files": [
+    "build",
+    "gutenberg-anime-animations.php",
+    "license.txt",
+    "readme.txt",
+    "src"
+  ],
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "zip": "wp-scripts plugin-zip"
+  },
+  "dependencies": {
+    "animejs": "^4.0.2"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.19.0"
+  }
+}
